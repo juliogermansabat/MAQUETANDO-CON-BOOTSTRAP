@@ -32,6 +32,9 @@
   .card-text{
       font-size: 15px;
   }
+  #Opinionindex{
+    font-size: 15px;
+  }
   .bi{
       color: gray;
       size: 50px;
@@ -56,6 +59,9 @@
 }
 .card-title{
     font-size: 30px;
+}
+#maincontacto{
+    height: 400px;
 }
     .header-lista-li{
         display: inline-block;

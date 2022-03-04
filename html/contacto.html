@@ -47,46 +47,79 @@
           </nav>
  
     </header>
-    <main>
+    <main id="maincontacto">
+        <div class="container">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Direccion de mail</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Por favor ingrese una direccion de correo valida 
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese una Ciudad de correo valida 
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Situacion Laboral actual</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Empleado</option>
+                    <option>Desempleado</option>
+                    <option>De licencia/carpeta</option>
+                    <option>En juicio</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Telefono de contacto</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Acepto ser contactado telefonicamente
+                    </label>
+                    <div class="invalid-feedback">
+                      Debe aceptar antes de enviar fomulario
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
 
-        <SEction>
-            <fieldset>
-                <legend>Dejanos tu consulta</legend>
-            <label for="Nombreyapellido">Nombre y apellido</label>
-            <input type="text" placeholder="ingrese su nombre" id="Nombreyapellido">
-            <fieldset>
-            <label for="email">email</label>
-            <input type="email" id="email">
-        </fieldset>
+        </div>
        
-        <form action="">
-            <select name="Estado laboral" id="">
-                <option value="Empleado">Empleado</option>
-                <option value="Desempleado">Desempleado</option>
-                <option value="De carpeta">De carpeta</option>
-            </select>
-        </form>
-        <form action="">
-            <div>Acepta contacto telefonico</div>
-            <input type="checkbox" name="acepta" value="1">
-        </form>
 
-            <fieldset>
-             
-            <label for="Comentario">Comentario</label>
-            <textarea name="" id="Comentario" cols="30" rows="10"></textarea>
-        </fieldset>
-        </fieldset>
-            <input type="submit" value="Enviar datos">
-            <input type="reset">
-
-        </SEction>
-
-        <section>
-            
-
-
-        </section>
+    
     </main>
 
 
