@@ -18,16 +18,34 @@
 </head>
 <body>
     <header class="header">
-        <img class="header-logo" src="img/ESTUDIO JURIDICO INTEGRAL(3).png">
-        <nav class="header-nav">
-            <ul class="header-lista">
-                <li class="header-lista-li"><a href="indexnew.html">Inicio</a></li>
-                <li class="header-lista-li"><a href="html/somos.html">Nuestra historia</a></li>
-                <li class="header-lista-li"><a href="html/areastrabajo.html">Areas de trabajo</a></li>
-                <li class="header-lista-li"><a href="html/profesionales.html">Nuestros profesionales</a></li>
-                <li class="header-lista-li"><a href="html/contacto.html">Contactanos</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Estudio juridico integral</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="indexnew.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/somos.html">Nuestra historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/areastrabajo.html">Areas de trabajo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/profesionales.html">Nuestros profesionales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/contacto.html">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+ 
     </header>
     <main class="main-1">
         <h2 id="titulosection1">Quienes somos</h2>
@@ -36,24 +54,42 @@
             <p class="parrafossection1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis obcaecati quasi fugiat iure excepturi, eos et harum adipisci aperiam consectetur, sequi ullam porro minima vero exercitationem. Sunt alias illum placeat!</p>
     </main>
     <div class="TitulopadreA">Dejamos huella
-    </div>
-    <div id="padreA">
-        <div data-aos="fade-right" data-aos-duration="1000" class="opinion">
-            <img id="imagenopinion1" src="img/foto opinion final final.png" alt="" class="opinion__img">
-            <h2 class="opinion__nombre">Juan Carlos</h2>
-            <p class="opinion__comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam temporibus, tempora natus quam, veniam eligendi, quasi laudantium sed repudiandae quia. Nihil, iste quam! Ipsa voluptatibus recusandae adipisci dolore aperiam?</p>
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1000" class="opinion">
-            <img id="imagenopinion1" src="img/foto opinion final final.png" alt="" class="opinion__img">
-            <h2 class="opinion__nombre">Juan Pablo</h2>
-            <p class="opinion__comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam temporibus, tempora natus quam, veniam eligendi, quasi laudantium sed repudiandae quia. Nihil, iste quam! Ipsa voluptatibus recusandae adipisci dolore aperiam?</p>
+        <div id="padre" class="container">
+            <div class="row">
+                <div class="col-4" id="hijo1">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/opinion III.jpg"" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Ricardo Marin</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Conocer su caso</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4" id="hijo2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/opinion III.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Martin Dasambiagio</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Conocer su caso</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4" id="hijo3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/opinion III.jpg"" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Camilo Wong</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Conocer su caso</a>
+                        </div>
+                      </div>
+                </div>           
             </div>
-        <div data-aos="fade-left" data-aos-duration="1000" class="opinion">
-            <img id="imagenopinion1" src="img/foto opinion final final.png" alt="" class="opinion__img">
-            <h2 class="opinion__nombre">Juan Ignacio</h2>
-            <p class="opinion__comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam temporibus, tempora natus quam, veniam eligendi, quasi laudantium sed repudiandae quia. Nihil, iste quam! Ipsa voluptatibus recusandae adipisci dolore aperiam?</p>
-        </div>
     </div>
+
+
     <footer>
     
         <div id="logofooter">
@@ -65,11 +101,11 @@
         </div>
         
     <div id="redesfooter">
-        <button>INSTAGRAM</button>
-        <button>MAIL</button>
-        <button>LINKEDIN</button>
-        <button>SKYPE</button>
-        <button>TWITTER</button>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-envelope"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-skype"></i>
+        <i class="bi bi-twitter"></i>
     </div>
     
     </footer>
